@@ -11,7 +11,7 @@ from model import AR,MA,adf_check
 
 ### getting preprocessed data from (add notebook location)
 
-df = pd.read_csv("../../train.csv",parse_dates=True, index_col="datetime")
+df = pd.read_csv("../taxi.csv",parse_dates=True, index_col="datetime")
 
 ### Making the data stationary by differencing 
 
